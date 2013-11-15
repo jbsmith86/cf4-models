@@ -39,6 +39,6 @@ In the end, you should be able to do things such as:
 * person = Person.new
 * person.pets.count
 * person.pets.create(name: 'Fluffy', genus: 'snake')
-* person.find_by(name: 'Fluffy')
+* person.pets.find_by(name: 'Fluffy')
 
 When you have finished the above assignment, commit it up to Github and submit the URL for the changelog as your assignment.
