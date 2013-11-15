@@ -2,7 +2,11 @@
 
 Getting started:
 
-* git clone git@github.com:vasaristudio/cf4-models.git
+* Go here: https://github.com/vasaristudio/cf4-models
+
+* Fork the repository.
+
+* Clone your newly forked repository using the SSH clone URL at the bottom right of the repository view. This should look something like: git clone https://github.com/<your username>/cf4-models
 
 * cd cf4-models
 
@@ -24,7 +28,7 @@ Files you will want to take special notice of:
 
 * db/seeds.rb - This is a place for you to enter sample data to get auto-imported
 
-Assignment:
+== Assignment:
 
 Use the rails generate command to generate a new model called Pet with the columns
 * person_id (integer)
@@ -42,3 +46,9 @@ In the end, you should be able to do things such as:
 * person.pets.find_by(name: 'Fluffy')
 
 When you have finished the above assignment, commit it up to Github and submit the URL for the changelog as your assignment.
+
+== Extra Credit:
+
+Create a migration to add a gender column of type string to the person. Update the seeds file, migrate and run rake db:reset to reload the data from seeds.
+
+After you are done, commit it up to Github and submit the URL for the changelog as your assignment.
