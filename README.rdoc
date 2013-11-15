@@ -6,7 +6,7 @@ Getting started:
 
 * Fork the repository.
 
-* Clone your newly forked repository using the SSH clone URL at the bottom right of the repository view. This should look something like: git clone https://github.com/<your username>/cf4-models
+* Clone your newly forked repository using the SSH clone URL at the bottom right of the repository view. This should look something like: git clone https://github.com/(your username)/cf4-models
 
 * cd cf4-models
 
