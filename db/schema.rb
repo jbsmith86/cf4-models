@@ -33,6 +33,7 @@ ActiveRecord::Schema.define(version: 20131115043939) do
   create_table "people", force: true do |t|
     t.string   "first_name"
     t.string   "last_name"
+    t.string   "gender"
     t.string   "phone"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -40,8 +41,8 @@ ActiveRecord::Schema.define(version: 20131115043939) do
 
   create_table "pets", force: true do |t|
     t.integer "person_id"
-    t.string "name"
-    t.string "genus"
+    t.string  "name"
+    t.string  "genus"
   end
 
 end
