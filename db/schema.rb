@@ -38,4 +38,10 @@ ActiveRecord::Schema.define(version: 20131115043939) do
     t.datetime "updated_at"
   end
 
+  create_table "pets", force: true do |t|
+    t.integer "person_id"
+    t.string "name"
+    t.string "genus"
+  end
+
 end
